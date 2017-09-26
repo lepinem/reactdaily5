@@ -11,7 +11,7 @@ export default class Child extends Component {
     return (
       <div className="card-body">
         <div className="form-group">
-          <input type="submit" onClick={this.props.onClick}/>
+          <button className="btn" type="submit" onClick={this.props.onClick}>HIT ME!</button>
         </div>
       </div>
     )
